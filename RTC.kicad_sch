@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Модуль часов\\n реального времени")
-		(date "2026-02-19")
+		(date "2026-03-11")
 		(company "R2AKT")
 		(comment 1 "R2AKT.467863.001")
 		(comment 2 "R2AKT")
@@ -8258,12 +8258,6 @@
 		(color 0 0 0 0)
 		(uuid "e4d69e2b-00ed-4784-be50-3cfdf9bb6c58")
 	)
-	(junction
-		(at 186.944 84.582)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f24f54ce-8efe-4707-a8bb-55bfa2b0113a")
-	)
 	(no_connect
 		(at 52.07 268.224)
 		(uuid "17b3489f-9bf4-4d46-90e1-cb979bc58dc0")
@@ -9382,6 +9376,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.944 90.678) (xy 212.09 90.678)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61da3f17-1e40-4c18-a8f8-882b45fa5a4f")
+	)
+	(wire
+		(pts
 			(xy 395.478 39.878) (xy 394.208 39.878)
 		)
 		(stroke
@@ -9402,6 +9406,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 90.678) (xy 212.09 93.218)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651e94b3-adf7-400d-aad6-22e99b8e968b")
+	)
+	(wire
+		(pts
 			(xy 286.512 156.972) (xy 289.052 156.972)
 		)
 		(stroke
@@ -9419,16 +9433,6 @@
 			(type default)
 		)
 		(uuid "69506783-3e36-44e2-99f3-0a8e1529c9ea")
-	)
-	(wire
-		(pts
-			(xy 186.944 83.058) (xy 186.944 84.582)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "697ff243-4360-431f-aaa3-4b5b2f00da56")
 	)
 	(wire
 		(pts
@@ -9812,6 +9816,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.944 83.058) (xy 186.944 90.678)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91509dde-c0ec-4f3d-8944-353058f9671e")
+	)
+	(wire
+		(pts
 			(xy 127 179.832) (xy 127 167.132)
 		)
 		(stroke
@@ -10022,7 +10036,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.292 84.582) (xy 186.944 84.582)
+			(xy 177.292 84.582) (xy 205.232 84.582)
 		)
 		(stroke
 			(width 0)
@@ -10389,16 +10403,6 @@
 			(type default)
 		)
 		(uuid "d4485b91-e17a-4456-9d58-a96b3d661906")
-	)
-	(wire
-		(pts
-			(xy 186.944 84.582) (xy 205.232 84.582)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6864bcd-cd2d-4693-9bb1-d783431540d8")
 	)
 	(bus
 		(pts
@@ -13982,7 +13986,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6n8"
+		(property "Value" "4n7"
 			(at 193.548 69.342 90)
 			(effects
 				(font
